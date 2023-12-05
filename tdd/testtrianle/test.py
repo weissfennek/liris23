@@ -1,3 +1,6 @@
+from liris23.tdd.testtrianle.code import determine_triangle_type
+
+
 def test_determine_triangle_type():
     # Test pour un triangle équilatéral
     assert determine_triangle_type(3, 3, 3) == "Équilatéral"
